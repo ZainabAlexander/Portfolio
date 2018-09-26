@@ -1,0 +1,204 @@
+html{
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  }
+/* Navigation bar */
+  .topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: gray;
+    color: white;
+}
+/* Navigation bar ends here */
+/* Profile box starts here */
+.prof-box{
+  width: 400px;
+  height: 400px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: white;
+  margin: 0 auto;
+  margin-top: 140px;
+  text-align: center;
+  font-family:  monospace,sans-serif;
+}
+/* Profile box ends here */
+.Ed{
+  width: 70%;
+  height: 150px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  margin-left: 20px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 200px;
+  text-align: left;
+  font-family:  monospace,sans-serif;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+/* work experinece */
+.exp{
+  width: 70%;
+  height: 150px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 200px;
+  text-align: left;
+  font-family:  monospace,sans-serif;
+  border: 2px solid;
+  border-radius: 10px;
+}
+
+.skill{
+  width: 70%;
+  height: 100px;
+  background: rgba(0,0,0,0.4);
+  padding: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 200px;
+  text-align: left;
+  font-family: 'Maven Pro', sans-serif;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+
+}
+
+h1{
+  font-weight: bold;
+  letter-spacing: 6;
+  font-size: 40px;
+  font-family: font-family: 'Maven Pro', sans-serif;
+
+}
+
+h2{
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 5;
+  font-weight:100;
+  font-size: 20px
+
+}
+
+p{
+  font-weight: 200px;
+  letter-spacing: 1;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 960px){
+  .topnav{
+    width: 100%;
+
+  }
+  .prof-box{
+    width: 100%;
+  }
+  .Ed{
+    width: 100%;
+  }
+
+  .exp{
+    width:100%;
+  }
+  .footer{
+    width:100%;
+  }
+  }
+
+@media screen and (max-width: 640px){
+  .topnav{
+    width: 100%;
+
+  }
+  .prof-box{
+    width: 100%;
+  }
+  .Ed{
+    width: 100%;
+  }
+
+  .exp{
+    width:100%,
+  }
+  .footer{
+    width:100%;
+  }
+  }
+
+@media screen and (max-width: 320px){
+  .topnav{
+    width: 100%;
+
+  }
+  .prof-box{
+    width: 100%;
+  }
+  .Ed{
+    width: 100%;
+  }
+
+  .exp{
+    width:100%;
+  }
+  .footer{
+    width: 100%;
+  }
+  }
+/* Responsive design ends here */
